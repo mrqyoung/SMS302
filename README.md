@@ -7,18 +7,19 @@ SMS302
  * 邮箱自己发送给自己接收，方便配置邮箱过滤器
  * 可配置 SMTP 服务器，默认仅支持 ssl 模式
  * 可选择发送加密短信或者明文短信
+  
 
 
 # 源码使用方式
 
-Clone 或者下载代码，修改加密参数如 `IV` 和 `KEY`，构建生成 release 安装包。
-或者修改加密方式等其它任何细节后构建。
+Clone 或者下载代码，修改加密参数如 `IV` 和 `KEY`，构建生成 release 安装包。  
+或者修改加密方式等其它任何细节后构建。  
 
 
 # 直接下载 release 版本 
 
-[SMS302-V0.2-release.apk](https://github.com/mrqyoung/SMS302-V0.2-release.apk)
-（建议使用源码并修改加密参数后生成只属于你自己的安装包）
+[SMS302-V0.2-release.apk](https://github.com/mrqyoung/SMS302/releases/)  
+（建议使用源码并修改加密参数后生成只属于你自己的安装包）  
 
 ## App 使用帮助
 
@@ -36,9 +37,9 @@ Clone 或者下载代码，修改加密参数如 `IV` 和 `KEY`，构建生成 r
 
 ## AES 加密部分使用了 [AESCrypt-Android ](https://github.com/scottyab/AESCrypt-Android)
 
-使用了 `com.scottyab.aescrypt.AESCrypt` (Copyright (c) 2014 Scott Alexander-Bown)
-项目地址：https://github.com/scottyab/AESCrypt-Android
-文件地址：https://github.com/scottyab/AESCrypt-Android/blob/master/aescrypt/src/main/java/com/scottyab/aescrypt/AESCrypt.java
+使用了 `com.scottyab.aescrypt.AESCrypt` (Copyright (c) 2014 Scott Alexander-Bown)  
+项目地址：https://github.com/scottyab/AESCrypt-Android  
+文件地址：https://github.com/scottyab/AESCrypt-Android/blob/master/aescrypt/src/main/java/com/scottyab/aescrypt/AESCrypt.java  
 
 
 ## Licence
