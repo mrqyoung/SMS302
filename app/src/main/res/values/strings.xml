@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SMS302</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Bad command or password</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings defined by Mr.Q.Young -->
+    <string name="global_help">Help (By Mr.Q.Young):\n
+        1. [Email] 输入「@Help」点击按钮显示帮助\n
+        2. [Email] 输入「@SetKey」，并在[Password]中输入密码，点击按钮设置主密码\n
+        3. [Email] 输入邮箱，并在[Password]中输入密码，点击按钮设置邮箱信息\n
+        3a. 若在 2 中未设置主密码，则转发的短信不加密\n
+        4. [Email] 输入「@Test」点击按钮发送测试邮件\n
+        5. [Email] 输入「@SetSMTP」，并在[Password]中输入 HOST:PORT 可设置邮箱服务器\n
+        5a. 默认的邮箱服务器为QQ邮箱"smtp.qq.com:587"\n
+        6. 修改数据只需直接重设；SetKey后需要重设邮箱密码\n
+        7. [Email] 输入「@Clear」点击按钮清空所有密码\n
+    </string>
+    <string name="key_changed_hint">
+        更新主密码后，原邮箱密码将失效，需重新设置
+    </string>
+    <string name="icon_info">ⓘ</string>
+
+</resources>
